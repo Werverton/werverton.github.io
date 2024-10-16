@@ -3,27 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Werverton Web Page</title>
+    <title>Meu Site com Bootstrap</title>
+
+    <!-- CSS do Bootstrap via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao meu site</h1>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Este é um parágrafo que descreve algo sobre mim.</p>
-        </section>
-        
-        <section>
-            <h2>Meus Projetos</h2>
-            <p>Aqui estão alguns dos meus projetos recentes.</p>
-        </section>
-    </main>
+    <div class="container">
+        <h1 class="text-center mt-5">Bem-vindo ao meu site com Bootstrap!</h1>
+        <p class="lead text-center">Este é um exemplo básico usando Bootstrap no GitHub Pages.</p>
 
-    <footer>
-        <p>&copy; 2024 Meu Nome</p>
-    </footer>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Conteúdo do primeiro card.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Conteúdo do segundo card.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">Conteúdo do terceiro card.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript do Bootstrap via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
